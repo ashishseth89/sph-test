@@ -1,0 +1,22 @@
+uuid: 38707432-0613-4beb-a0fa-9ab6f7ed722a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sph
+id: node.sph.promote
+field_name: promote
+entity_type: node
+bundle: sph
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

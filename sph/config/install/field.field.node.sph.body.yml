@@ -1,0 +1,23 @@
+uuid: 23dbb1b7-45b4-4f81-a1d2-fca1745eaf05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sph
+  module:
+    - text
+id: node.sph.body
+field_name: body
+entity_type: node
+bundle: sph
+label: description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

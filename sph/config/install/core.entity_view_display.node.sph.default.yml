@@ -1,0 +1,39 @@
+uuid: 56766122-5ce0-4d10-95af-2d2dd95b9fd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sph.body
+    - field.field.node.sph.field_image2
+    - node.type.sph
+  module:
+    - image
+    - text
+    - user
+id: node.sph.default
+targetEntityType: node
+bundle: sph
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image2:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

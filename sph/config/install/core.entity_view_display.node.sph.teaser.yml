@@ -1,0 +1,32 @@
+uuid: a6fdaf32-e437-4e82-af03-63fc61a4bb91
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sph.body
+    - field.field.node.sph.field_image2
+    - node.type.sph
+  module:
+    - text
+    - user
+id: node.sph.teaser
+targetEntityType: node
+bundle: sph
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image2: true

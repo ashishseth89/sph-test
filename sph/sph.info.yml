@@ -1,0 +1,8 @@
+name: SPH
+type: module
+description: 'SPH product'
+core_version_requirement: ^8.8 || ^9
+package: Custom
+dependencies:
+  - node
+
